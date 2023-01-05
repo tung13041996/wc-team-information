@@ -1,7 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <!-- <router-link to="/">Home</router-link> -->
+    <h1>World Cup 2022</h1>
+    <span>This is all country take part in WC2022 in Qatar</span>
   </nav>
   <router-view />
 </template>
