@@ -1,19 +1,25 @@
 <template>
   <nav>
     <!-- <router-link to="/">Home</router-link> -->
-    <h1>World Cup 2022</h1>
-    <span>This is all country take part in WC2022 in Qatar</span>
+    <h1>Worldcup 2022 at Qatar</h1>
+    <p>Information about all 32 countries take part in WC 2022</p>
   </nav>
   <router-view />
 </template>
 
 <style>
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: #000; font-size:18px; font-weight:400;
 }
 
 nav {

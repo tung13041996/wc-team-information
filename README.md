@@ -1,4 +1,4 @@
-# football-information-wc
+# football
 
 ## Project setup
 ```
