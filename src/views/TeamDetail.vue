@@ -10,9 +10,6 @@
       <div class="team-detail__image margin-bottom-40px image-cover">
         <img :src="team.image" alt="">
       </div>
-      <div class="team-detail__info margin-bottom-80px">
-        {{team.description}}
-      </div>
 
       <TeamRelated :numberItem = 3 :idCurrent = "team.id" />
     </div>
