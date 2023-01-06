@@ -1,9 +1,9 @@
 <template>
   <div class="team-related">
-    <div class="team-related__title">
+    <div class="team-related__title margin-bottom-40px txt_center">
       <h2>Các đội bóng khác</h2>
     </div>
-    <div class="team-related__grid">
+    <div class="team-related__grid flex-grid jc-center margin-bottom-80px">
       <TeamDisplay v-for="team in teams" :key="team.id" :team="team"/>
     </div>
   </div>

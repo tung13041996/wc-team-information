@@ -1,19 +1,21 @@
 <template>
-  <div class="team-detail" v-if="team">
-    <div class="team-detail__name">
-      <h1>{{team.name}}</h1>
-    </div>
-    <div class="team-detail__image">
-      <img :src="team.image" alt="">
-    </div>
-    <div>
-      <div class="team-detail__info">
+  <div class="container">
+    <div class="team-detail" v-if="team">
+      <div class="button-back margin-bottom-80px txt_center">
+        <router-link class="btn_back" to="/">Back to Home</router-link>
+      </div>
+      <div class="team-detail__name txt_center margin-bottom-20px">
+        <h1>{{team.name}}</h1>
+      </div>
+      <div class="team-detail__image margin-bottom-40px image-cover">
+        <img :src="team.image" alt="">
+      </div>
+      <div class="team-detail__info margin-bottom-80px">
         {{team.description}}
       </div>
-    </div>
 
-    <router-link to="/">Back to Home</router-link>
-    <TeamRelated :numberItem = 2 :idCurrent = "team.id" />
+      <TeamRelated :numberItem = 3 :idCurrent = "team.id" />
+    </div>
   </div>
 </template>
 <script>
@@ -43,5 +45,4 @@ export default {
 
 <style scoped>
 .team-detail__image {aspect-ratio:16/9;}
-.team-detail__image img {width:100%; height:100%; object-fit:cover; object-position:center;}
 </style>
