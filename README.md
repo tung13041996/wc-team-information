@@ -1,6 +1,11 @@
-# football
+# Football Team in World Cup 2022
+## Description:
+- Small landing page Vue 3 to show information for all team
+- Information get from data which called by Axios
+- Data get from this link: https://my-json-server.typicode.com/tung13041996/api-test/country
 
-## Project setup
+## Usage
+### Project setup
 ```
 npm install
 ```
@@ -20,5 +25,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
